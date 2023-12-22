@@ -10,5 +10,9 @@ public class CarMain1 {
         Model3Car model3Car = new Model3Car();
         dirver.setCar(model3Car);
         dirver.drive();
+
+        NewCar newCar = new NewCar();
+        dirver.setCar(newCar);
+        dirver.drive();
     }
 }
